@@ -1,0 +1,69 @@
+{
+  "title": "Quantitative Inquiry in Education",
+  "subtitle": "a graduate-level guide from measurement to defensible inference, with a test selector, a significance-versus-effect-size explainer and a rigor self-check",
+  "problem": "Graduate students and school-district analysts run the test their software suggests, read p < .05 as proof, average Likert ranks, and cannot say why a correlation between breakfast and test scores does not justify a breakfast programme. The statistics are taught; the judgement — which test, what a p-value licenses, where a false positive comes from — is not practised.",
+  "solution": "A fourteen-section resource that moves from the deductive logic of quantitative inquiry through measurement levels, reliability and validity, sampling and design, causal criteria, descriptive and inferential statistics, regression, survey design and critical appraisal, with widgets that make the reader decide: a test selector from three questions, an explainer that grows a sample until a fixed small effect turns significant, a rigor scorer, and a spot-the-flaw quiz over real-sounding claims.",
+  "pedagogy": "judgement before formulas: the explainer lets the reader watch p shrink while Cohen's d stays at 0.20; the selector and spot-the-flaw quiz ask for a decision before the page explains; the critical-appraisal section names p-hacking, HARKing and optional stopping so students recognise them in the literature they read.",
+  "section_titles": [
+    "logic of inquiry",
+    "hypothesis testing",
+    "levels of measurement",
+    "reliability and validity",
+    "sampling and design",
+    "correlation and causation",
+    "descriptive vs inferential",
+    "regression",
+    "survey design",
+    "test selector",
+    "common tests",
+    "reading results critically",
+    "rigor",
+    "glossary"
+  ],
+  "widgets": [
+    {
+      "name": "Design tabs",
+      "what": "Switch between research-design panels (experimental, quasi-experimental, correlational, descriptive) with each design's logic and the claim it can bear"
+    },
+    {
+      "name": "Test selector",
+      "what": "Three questions — goal, number of groups or predictors, outcome type — suggest a starting test with a rationale and a reminder to check assumptions"
+    },
+    {
+      "name": "Significance vs effect size",
+      "what": "A slider grows the per-group sample for a fixed d = 0.20; the approximate p-value and a Yes/No significance flag update while the effect size stays put"
+    },
+    {
+      "name": "Rigor scorer",
+      "what": "Weighted checklist of measurement and transparency practices; fills a bar and gives an Emerging / Developing / Strong verdict"
+    },
+    {
+      "name": "Spot-the-flaw quiz",
+      "what": "Claims from observational studies and reports; the reader names the flaw and sees the explanation"
+    }
+  ],
+  "quiz_topics": [
+    "what failing to reject the null licenses",
+    "legitimate statistics for ordinal data",
+    "reliability versus validity",
+    "confounding and the causal criteria",
+    "HARKing and pre-registration"
+  ],
+  "tour": [
+    "the first section opens and the count rises.",
+    "hypothesis testing, measurement levels, reliability, confounding and questionable research practices"
+  ],
+  "repo": "quantitative-inquiry",
+  "tests": 7,
+  "cov_all": 79.84,
+  "cov_kit": 78.75,
+  "vars": 26,
+  "inline_styles": 81,
+  "style_classes": 30,
+  "buttons": 28,
+  "tables": 8,
+  "main_note": "wrapped the content in a `<main>` landmark",
+  "sections": 14,
+  "reading_min": 18,
+  "words": 4124
+}
