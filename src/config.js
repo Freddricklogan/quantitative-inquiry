@@ -3,6 +3,7 @@ export const config = {
   title: 'Quantitative Inquiry in Education',
   tagline: 'A graduate-level guide to quantitative research in education: measurement, sampling and design, hypothesis testing, regression, choosing the right test and reading results critically, with a test selector, a significance-versus-effect-size explainer and a rigor self-check.',
   repo: 'https://github.com/Freddricklogan/quantitative-inquiry',
+  theme: 'plum',
   pagesUrl: 'https://freddricklogan.github.io/quantitative-inquiry/',
   quizTitle: 'Five questions on quantitative inquiry',
   quiz: [
